@@ -1,4 +1,7 @@
 ### Hi there 👋
+# I am a Game Programmer and 3D Computer Graphics enthusiast.
+# I love anything that requires mathematics.
+# 
 
 <!--
 **aditya-c2512/aditya-c2512** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
