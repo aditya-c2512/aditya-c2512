@@ -1,7 +1,10 @@
 ### Hi there 👋
 - I am a Game Programmer and 3D Computer Graphics enthusiast.
 - I love anything that requires mathematics.
-- I have experience in making video games in Unity Engine and Unreal Engine.
+- I have experience in making video games in Unity Engine and Unreal Engine 4 [Both C++ and Blueprints].
+- I primarily work in C++.
+- I am currently learning 3D Computer Graphics and Real-time Rendering.
+- I am working on my first Raytracer in C++!
 
 <!--
 **aditya-c2512/aditya-c2512** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
