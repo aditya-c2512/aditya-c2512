@@ -4,7 +4,6 @@
 - I have experience in making video games in Unity Engine and Unreal Engine 4 [Both C++ and Blueprints].
 - I primarily work in C++.
 - I am currently learning 3D Computer Graphics and Real-time Rendering.
-- I am working on my first Raytracer in C++!
 ---
 ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=aditya-c2512&count_private=true&show_icons=true&theme=nord)
 
