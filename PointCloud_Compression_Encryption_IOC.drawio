@@ -1,1 +1,102 @@
-<mxfile host="app.diagrams.net" modified="2022-09-02T13:46:42.825Z" agent="5.0 (X11)" version="20.2.8" etag="svXdXubmHTvAqpkUMplj" type="github"><diagram id="6UpNDwpI1nD_NAY1Nvfu">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-09-04T01:01:44.392Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="ohwy7Xo2xDRMMuPB5hJo" version="20.2.8" type="github">
+  <diagram id="6UpNDwpI1nD_NAY1Nvfu" name="Page-1">
+    <mxGraphModel dx="1038" dy="583" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="mOZohG3tkldl4-SXVd8Q-14" value="" style="rounded=0;whiteSpace=wrap;html=1;fillStyle=auto;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="600" y="140" width="200" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="mOZohG3tkldl4-SXVd8Q-11" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillStyle=auto;" vertex="1" parent="1">
+          <mxGeometry x="20" y="140" width="200" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="mOZohG3tkldl4-SXVd8Q-1" value="Point Cloud Data &lt;br&gt;[.pcd file OR from LiDAR]" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="20" width="180" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="mOZohG3tkldl4-SXVd8Q-2" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Point Cloud Data Compression and Encryption Image of Concept&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry width="450" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="mOZohG3tkldl4-SXVd8Q-3" value="Compression of Point Cloud into an Octree [Octree Encoding]" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="40" y="200" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="mOZohG3tkldl4-SXVd8Q-4" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fontSize=14;startArrow=none;" edge="1" parent="1" source="mOZohG3tkldl4-SXVd8Q-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="119.67" y="120" as="sourcePoint" />
+            <mxPoint x="119.67" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mOZohG3tkldl4-SXVd8Q-5" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fontSize=14;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="119.67" y="280" as="sourcePoint" />
+            <mxPoint x="120" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mOZohG3tkldl4-SXVd8Q-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=14;dashed=1;dashPattern=1 2;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="mOZohG3tkldl4-SXVd8Q-6" target="mOZohG3tkldl4-SXVd8Q-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="660" y="399.9699999999999" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mOZohG3tkldl4-SXVd8Q-9" value="TCP transfer over WiFi/Ethernet" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;" vertex="1" connectable="0" parent="mOZohG3tkldl4-SXVd8Q-8">
+          <mxGeometry x="0.1727" y="1" relative="1" as="geometry">
+            <mxPoint x="-35" y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mOZohG3tkldl4-SXVd8Q-6" value="Encrypt Octree data using AES-256" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="40" y="360" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="mOZohG3tkldl4-SXVd8Q-16" value="LiDAR&lt;br&gt;Database" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillStyle=auto;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="670" y="359.9999999999999" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="mOZohG3tkldl4-SXVd8Q-17" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fontSize=14;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="699.6700000000001" y="360" as="sourcePoint" />
+            <mxPoint x="700" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mOZohG3tkldl4-SXVd8Q-18" value="Decrypt" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillStyle=auto;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="665" y="300" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="mOZohG3tkldl4-SXVd8Q-19" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fontSize=14;" edge="1" parent="1" target="mOZohG3tkldl4-SXVd8Q-20">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="699.67" y="300" as="sourcePoint" />
+            <mxPoint x="700" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mOZohG3tkldl4-SXVd8Q-20" value="Decode Octree" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillStyle=auto;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="640" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mOZohG3tkldl4-SXVd8Q-21" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fontSize=14;" edge="1" parent="1" target="mOZohG3tkldl4-SXVd8Q-22">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="699.6700000000001" y="180" as="sourcePoint" />
+            <mxPoint x="700" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mOZohG3tkldl4-SXVd8Q-22" value="Original Point Cloud Data" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fillStyle=auto;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="640" y="20" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="mOZohG3tkldl4-SXVd8Q-24" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://pcl.readthedocs.io/en/latest/_images/octree_bunny.jpg;" vertex="1" parent="1">
+          <mxGeometry x="369" y="520" width="120" height="117.6" as="geometry" />
+        </mxCell>
+        <mxCell id="mOZohG3tkldl4-SXVd8Q-25" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://waldyrious.net/learning-holography/img/stanford-bunny-points.png;" vertex="1" parent="1">
+          <mxGeometry x="189" y="520" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="mOZohG3tkldl4-SXVd8Q-27" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://upload.wikimedia.org/wikipedia/commons/5/50/AES_%28Rijndael%29_Round_Function.png;" vertex="1" parent="1">
+          <mxGeometry x="554" y="498.63" width="107" height="160.34" as="geometry" />
+        </mxCell>
+        <mxCell id="mOZohG3tkldl4-SXVd8Q-31" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;fontSize=14;entryX=0;entryY=0.595;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="mOZohG3tkldl4-SXVd8Q-24">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="309" y="590" as="sourcePoint" />
+            <mxPoint x="359" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mOZohG3tkldl4-SXVd8Q-32" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;fontSize=14;entryX=-0.027;entryY=0.566;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="mOZohG3tkldl4-SXVd8Q-27">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="489" y="590.03" as="sourcePoint" />
+            <mxPoint x="549" y="590.0020000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
